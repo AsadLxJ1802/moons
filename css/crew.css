@@ -20,3 +20,19 @@
     font-weight: 700;
     src: url('../fonts/barlow-condensed-v13-latin-700.woff2') format('woff2');
   }
+
+  .containers{
+    width: 1385px;
+    margin: 0 auto;
+  }
+
+  body {
+    font-family: 'Barlow Condensed';
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.9)100%, rgba(0, 0, 0, 0.8)100%),
+     url(../images/background.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+    
+  }
