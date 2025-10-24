@@ -20,3 +20,43 @@
     font-weight: 700;
     src: url('../fonts/barlow-condensed-v13-latin-700.woff2') format('woff2');
   }
+  body{
+    font-family: "Barlow Condensed" , sans-serif;
+    background-image: url("/images/bg-img.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
+  h1, .fontext {
+    font-family: "Bellefair", serif;
+  }
+  .containers{
+    max-width: 1385px;
+    margin: 0 auto;
+    padding: 0 39px;
+  }
+  .textline{
+    padding-right: 0;
+    background-image: url("/images/header-bg.svg");
+    background-repeat: no-repeat;
+    background-size: 473px 1px ;
+    background-position: calc(50% - 530px);
+  }
+  
+  .containers-renome{
+    padding-right: 0;
+    background-image: url("/images/header-bg.svg");
+    background-repeat: no-repeat;
+    background-size: 473px 1px ;
+    background-position: calc(50% - 90px);
+  }
+
+  @media (max-width: 1024px){
+    .textline{
+      background-image: none;
+    }
+    .containers-renome{
+      background-image: none;
+    }
+  }
