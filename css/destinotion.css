@@ -24,7 +24,7 @@
  .containers {
   max-width: 1385px;
     margin: 0 auto;
-    padding : 0 16px;
+    padding : 0 39px;
 }
 
 
@@ -36,9 +36,20 @@
     background-position: center;
   }
   body{
-    font-family: Barlow Condensed ;
+   font-family: 'Barlow Condensed'; ;
   }
 
   .hero_title{
-    font-family: Bellefair;
+    font-family: 'Bellefair';
+  }
+  .font__span{
+    font-family: 'Bellefair';
+
+  }
+
+  .text__font{
+    font-family: sans-serif, 'Bellefair';
+  }
+  .title__font{
+     font-family: 'Bellefair';
   }
